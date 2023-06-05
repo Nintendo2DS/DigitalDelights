@@ -46,6 +46,7 @@
       setTimeout(function() {
         window.location.href = link;
       }, 4000);
+      return false; // Prevent default link behavior
     }
   </script>
 </head>
@@ -53,17 +54,17 @@
   <h1>Digital Delights</h1>
   <p style="color: red;">Digital Delights, a delightful review website</p>
   <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 7in; height: 3in; float: left; margin-left: 450px; margin-top: 50px;">
-  <a href="DD-reviews.html">
-    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 675px;" onclick="changeImages('DD-reviews.html');">
+  <a href="DD-reviews.html" onclick="return changeImages('DD-reviews.html');">
+    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 675px;">
   </a>
-  <a href="DD-About.html">
-    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 825px;" onclick="changeImages('DD-About.html');">
+  <a href="DD-About.html" onclick="return changeImages('DD-About.html');">
+    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 825px;">
   </a>
-  <a href="DD-More.html">
-    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 975px;" onclick="changeImages('DD-More.html');">
+  <a href="DD-More.html" onclick="return changeImages('DD-More.html');">
+    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 975px;">
   </a>
-  <a href="DD-Secret.html">
-    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 1125px;" onclick="changeImages('DD-Secret.html');">
+  <a href="DD-Secret.html" onclick="return changeImages('DD-Secret.html');">
+    <img src="https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg" alt="Alt text for image" style="width: 4in; height: 1in; float: left; margin-left: -700px; margin-top: 1125px;">
   </a>
   <p class="word about">About</p>
   <p class="word review">Review</p>
