@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digital Delights</title>
-    <style>
-       body {
-        background-color: lightskyblue;
-      }
-      p {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Digital Delights</h1>
-    <p>Welcome to Reviews. Select one of the options below to search for a Review or click the "+ New Review" to create your own. </p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Delights</title>
+  <style>
+    body {
+      background-color: lightskyblue;
+    }
+    .color-change {
+      animation: colorChange 18s infinite;
+    }
     
-  </body>
+    @keyframes colorChange {
+      0% { color: red; }
+      33% { color: blue; }
+      66% { color: green; }
+      100% { color: red; }
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    .enlarged {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Digital Delights</h1>
+  <h2>About</h2>
+  <p class="hidden">Welcome to Reviews. Select one of the options below to search for a Review or click the "+ New Review" to create your own.</p>
+  <p class="color-change enlarged">Digital Delights is not your typical website for appreciating video games. It is a comprehensive centre that explores all facets and dimensions of the gaming industry, delving deep into the gaming industry. In order to provide you an experience that is unmatched, Digital Delights employs a multidimensional strategy with a love for gaming that knows no boundaries.
+
+    At Digital Delights, we are aware that video games are more than simply a way to pass the time; they are also a dynamic art form that combines gameplay mechanics, visuals, music, and more. We go under the surface, revealing the meticulous work that goes into each pixel, each line of code, and the creative brains who create these virtual worlds. Our team of devoted players, industry professionals, and enthusiastic fans investigate video games from a variety of perspectives, ensuring that our coverage is thorough and interesting. Digital Delights provides a multitude of information for both ardent gamers and interested novices, ranging from thought-provoking evaluations that analyse the narrative depth and thematic components to in-depth interviews with the creative minds creating the industry.
+
+    But we don't end there in our investigation. We embrace the cultural significance of video games, investigating how they affect society, have an impact on the arts, and bring individuals from many backgrounds together. Digital Delights honours the dynamic and welcoming gaming community by giving players a forum to tell their stories, engage in meaningful dialogue, and exchange ideas.
+    Join us on this extraordinary journey as we unravel the mysteries, celebrate the triumphs, and appreciate the beauty of the video game medium. At Digital Delights, we are more than just a website; we are a passionate community united by our love for games, committed to bringing you the ultimate appreciation of this ever-evolving art form. Get ready to embark on an unforgettable gaming odyssey with us!.</p>
+</body>
 </html>
