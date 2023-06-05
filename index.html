@@ -51,6 +51,11 @@
         images[i].src = "https://media.tenor.com/-pMfQcryj3cAAAAC/explosion-boom.gif";
       }
       setTimeout(function() {
+        for (var i = 0; i < images.length; i++) {
+          images[i].src = "https://www.smashbros.com/wiiu-3ds/sp/us/images/howto/entry11-2.jpg";
+        }
+      }, 6000);
+      setTimeout(function() {
         window.open(link, '_blank');
       }, 4000);
       return false; // Prevent default link behavior
@@ -80,4 +85,3 @@
   <p class="word secret">Secret???</p>
 </body>
 </html>
-
